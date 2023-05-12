@@ -197,18 +197,18 @@ section#hero2{
     height: fit-content;
 }
 .heading2 h1{
-    font-size: 85px;
+    font-size: 80px;
     font-family: "Open Sauce Light", sans-serif;
     font-weight:unset;
 }
 .text2{
-    width: 365px;
+    width: 550px;
     height: 200px;
     display: flex;
     align-items: center;
     font-family: "Open Sauce Light", sans-serif;
-    font-size: 19px;
-    margin-top: 20px;
+    font-size: 24px;
+    margin-top: 25px;
 }
 .rightSide{
     width: 600px;
