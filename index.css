@@ -236,6 +236,155 @@ section#hero2{
     width: 235px;
     transform: translate(-3px, -65px);
 }
-@media (max-width: 1100px){
-
+section#hero3{
+    height: 768px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.heading3{
+    width: 90%;
+    height: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+}
+.heading3 h1{
+    font-family: "Open Sauce Light", sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+}
+.boxes{
+    display: grid;
+    height: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+.innerBoxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A1A44;
+}
+.innerBoxes:nth-child(2){
+    background-color: #071332;
+}
+.innerBoxes:nth-child(2) .innerText3 p{
+    color: #57E4FF;
+}
+.roper{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.circle3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #00C4CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle3 p{
+    font-size: 20px;
+    font-family: "Open Sauce Light", sans-serif;
+    font-weight: unset;
+    font-weight: bold;
+}
+.innerText3{
+    width: 320px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerText3 p{
+    font-size: 20px;
+    font-family: "Open Sauce Light", sans-serif;
+    font-weight: unset;
+    color: white;
+}
+section#hero4{
+    height: 768px;
+    width: 100%;
+    display: flex;
+    background: rgb(0,196,204);
+    background: linear-gradient(175deg, rgba(0,196,204,1) 0%, rgba(10,26,68,1) 100%);
+}
+.wrapper4{
+    margin: auto;
+    width: 80%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.heading4{
+    width: 790px;
+    height: 90px;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+.heading4 h1{
+    font-size: 65px;
+    font-family: "Open Sauce Light", sans-serif;
+    font-weight: unset;
+    color: white;
+    margin: auto;
+}
+.boxes4{
+    height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    bottom: 0;
+}
+.innerBox4{
+    height: 100%;
+    display: flex;
+}
+.innerWrapper4{
+    width: 290px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.innerText4{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerText4 p{
+    font-family: "Open Sauce Light", sans-serif;
+    font-size: 20px;
+    color: #57E4FF;
+}
+.innerWrapper4 img{
+    height: 25px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+.innerFooter4{
+    position: absolute;
+    bottom: 0;
+}
+.innerFooter4 p{
+    font-family: "Open Sauce Light", sans-serif;
+    font-size: 20px;
+    color: #57E4FF;
+    font-weight: bold;
 }
