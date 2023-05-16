@@ -222,7 +222,6 @@ section#hero2{
     width: 600px;
     height: 560px;
     position: absolute;
-    right: 0;
     object-fit: cover;
     -webkit-mask-box-image: url(images/2.png);
     background-color: black; 
@@ -387,4 +386,196 @@ section#hero4{
     font-size: 20px;
     color: #57E4FF;
     font-weight: bold;
+}
+section#hero5{
+    height: 768px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.wrapper5{
+    width: 90%;
+    height: 75%;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+.img5{
+    position: absolute;
+    left: 0;
+    object-fit: cover;
+}
+.text5{
+    width: 485px;
+    height: 480px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.heading5{
+    height: 175px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.heading5 h1{
+    font-family: "Open Sauce Light", sans-serif;
+    font-size: 70px;
+    font-weight: normal;
+}
+.innerText5{
+    width: 415px;
+    height: 240px;
+    position: absolute;
+    bottom: 0;
+}
+.innerText5 p{
+    font-family: "Open Sauce Light", sans-serif;
+    font-size: 20px;
+    font-weight: unset;
+}
+.shape5{
+    position: absolute;
+    object-fit: cover;
+    bottom: 0;
+    left: 0;
+    height: 235px;
+    width: 235px;
+    transform: translate(360px, -8px);
+}
+section#hero6{
+    height: 768px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #142140
+}
+.wrapper6{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.bigLogo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+.bigLogo img{
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+}
+.contact{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+.judul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.judul:first-child{
+    background-color: #071332;
+}
+.judul:first-child .innerWrapper6{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 80%;
+}
+.judul:first-child .innerWrapper6 p{
+    color: #57E4FF;
+    font-family: "Open Sauce Light", sans-serif;
+    font-size: 60px;
+}
+.judul:nth-child(2){
+    background-color: #fff;
+}
+.judul:nth-child(2) .innerWrapper6{
+    width: 85%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.judul:nth-child(2) .innerWrapper6 p{
+    color: #0A1A44;
+    font-family: "Open Sauce Light", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.judul:nth-child(3){
+    border-top: 5px #142140 solid;
+    border-bottom: 5px #142140 solid;
+    background-color: #fff;
+}
+.judul:nth-child(3) .innerWrapper6{
+    width: 85%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.judul:nth-child(3) .innerWrapper6 p{
+    color: #0A1A44;
+    font-family: "Open Sauce Light", sans-serif;
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.judul:nth-child(4){
+    background-color: #57E4FF;
+}
+.judul:nth-child(4) .innerWrapper6{
+    width: 85%;
+    height: 65%;
+    display: inline-flex;
+    align-items:  center;
+    position: relative;
+}
+.judul:nth-child(4) .innerWrapper6 p{
+    color: #0A1A44;
+    font-family: "Open Sauce Light", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.imgWrapper{
+    display: inline-flex;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+}
+.imgWrapper:hover{
+    cursor: pointer;
+}
+.imgWrapper img{
+    height: 60px;
+    width: 60px;
+}
+.imgWrapper img:nth-child(2){
+    margin-left: 25px;
+    margin-right: 25px;
+}
+@media (max-width: 1100px){
+
 }
